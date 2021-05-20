@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+button {
+	&:hover:not([disabled]) {
+		cursor: pointer;
+	}
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+	margin: 0;
+	text-decoration: none;
+}
+
+$font-light: 300;
+$font-regular: 400;
+$font-medium: 500;
+
+/* Card item fonts */
+.card-heading {
+	color: $black;
+	font-size: 14px;
+	letter-spacing: 0.01em;
+	line-height: 16px;
+	font-weight: $font-medium;
+	margin: 0;
+}
+
+.card-subheading {
+	color: $grey-medium;
+	font-size: 12px;
+	letter-spacing: 0.01em;
+	line-height: 16px;
+	font-weight: $font-regular;
+	margin: 0;
+}
+
+.card-colours {
+	color: $grey-medium;
+	font-size: 12px;
+	letter-spacing: 0.01em;
+	line-height: 16px;
+	font-weight: $font-regular;
+	margin: 0;
+}
+
+.card-price-new {
+	color: $black;
+	font-size: 14px;
+	letter-spacing: 0.01em;
+	line-height: 16px;
+	font-weight: $font-medium;
+	margin: 0;
+}
+
+.card-price-old {
+	color: $grey-dark;
+	font-size: 12px;
+	letter-spacing: 0.01em;
+	line-height: 16px;
+	font-weight: $font-medium;
+	margin: 0;
+	text-decoration: line-through;
+}
+
+/* Menu font styles */
+.menu-title {
+	color: $black;
+	font-size: 16px;
+	line-height: 19px;
+	letter-spacing: 0.02em;
+	font-weight: $font-regular;
+}
+
+/* Product details fonts */
+.product-details__heading {
+	color: $black;
+	font-size: 24px;
+	letter-spacing: 0.01em;
+	font-weight: $font-regular;
+}
+.product-details__subheading {
+	color: $black;
+	font-size: 18px;
+	letter-spacing: 0.01em;
+	font-weight: $font-light;
+}
+.product-details__discount {
+	color: $green-discount;
+	font-size: 16px;
+	letter-spacing: 0.01em;
+	font-weight: $font-light;
+}
+.product-details__price-new {
+	color: $black;
+	font-size: 18px;
+	letter-spacing: 0.01em;
+	font-weight: $font-regular;
+}
+.product-details__price-old {
+	color: $grey-dark;
+	font-size: 16px;
+	letter-spacing: 0.01em;
+	font-weight: $font-regular;
+}
+
+.details-shoesize-heading {
+	color: $black;
+	font-size: 16px;
+	letter-spacing: 0.01em;
+	font-weight: $font-regular;
+}
+
+.details-shoesize-link {
+	color: $grey-medium;
+	font-size: 16px;
+	letter-spacing: 0.01em;
+	font-weight: $font-regular;
+}
+
+.details-shoesize-button {
+	font-size: 16px;
+	letter-spacing: 0.01em;
+	font-weight: $font-regular;
+}
